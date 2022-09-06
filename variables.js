@@ -1,5 +1,5 @@
 /*Declaracion de variables*/
-/*Declaracion de variables = tipos string, boolean, number y symbol*/
+/*Declaracion de variables = datos primitivos tipos string, boolean, number y symbol*/
 var miNombre = "Josimar";
 let miApellido ='Leon';
 const nickName = "Cachorro";
