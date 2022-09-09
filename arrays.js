@@ -1,8 +1,12 @@
-/* arrays */
+/**
+ * *    Arrays
+ */
 let frutas = ['banana','fruta','pera'];
 document.write(frutas[0]);
 
-/* arrays asociativo*/
+/**
+ * *    Arrays asociativos
+ */
 
 let pc ={
     nombre:'JOTA',
