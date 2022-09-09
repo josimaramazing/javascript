@@ -1,4 +1,6 @@
-/**Bucles - while */
+/**
+ * *    Bucles - While
+ */
 
 let numero = 0;
 
@@ -8,7 +10,9 @@ while(numero < 6){
 
 }
 
-/**Bucles - while */
+/**
+ * *    bucles - Do While
+ */
 
 let numero1 = 0;
 
@@ -19,7 +23,9 @@ do{
 }
 while(numero1 < 6)
 
-/**Bucles - while */
+/**
+ * *    Break
+ */
 
 while(numero < 1000){
     numero ++;
@@ -30,7 +36,9 @@ while(numero < 1000){
     }
     document.write('fin');
 }
-/**Bucles - for */
+/**
+ * *    Bucles - For
+ */
 
 let i = 20;
 
@@ -46,7 +54,9 @@ for(let i = 0; i<20; i++){
   }
 document.write(i);
 
-/**Bucles - for in of*/
+/**
+ * *    Bucles - For in Of
+ */
 
 let animales =['gato','perro','luna']
 
