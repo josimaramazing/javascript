@@ -1,56 +1,64 @@
-/*Declaracion de variables*/
-/*Declaracion de variables = datos primitivos tipos string, boolean, number y symbol*/
-var miNombre = "Josimar";
-let miApellido ='Leon';
+ /**
+ * * Declaracion de variables = datos primitivos tipos string, boolean, number y symbol
+ * TODO: var, let y const
+ * TODO: Las variables undefined existen pero no tienen valor y null al inicializar una variable nula.
+ * * scope : Se puede declarar e inicializar mas de una variable en un mismo dato.
+ * * NaN : 
+ * * let : Es un tipo de dato con mayor cobertura (Se recomienda su uso)
+ * ? las variables de tipo const pueden cambiar de valor
+ */
+var firstName = "Josimar";
+let lastName ="Leon";
 const nickName = "Cachorro";
-
-/*let es una variable con mas alcance*/
-let number = 2;
-let boolean = true; //false
-
-/*Las variables constantes no puede cambiar su valor*/
-const name = 'Jota';
-const pi = 3.14;
-//name = 'jeffer';
-//pi=34;
-
-/*valor undefined existe pero no tiene valor, en conclusion no tiene valor*/
-
-let carro;
-
-/*scope*/
-
+let age = 30;
+let boolean = true;
+let date;
+let model = null;
 let number1, number2, number3;
 number1 = 2;
 number2 = 3;
 number3 = 5;
 
-/*hoisting*/
+/**
+ * * CONST
+ */
+function exerciseOne() {
+    nickName = "jota";
+    document.write(nickName+'<br>');
+}
+exerciseOne();
 
-let marcaGamer;
+/**
+ * * UNDEFINED
+ */
+function exerciseTwo() {
+    document.write(date+'<br>');
+}
+exerciseTwo();
 
-/*null*/
+/**
+ * * NULL
+ */
+ function exerciseThree() {
+    document.write(model+'<br>');
+}
+exerciseThree();
 
-let marca = null;
+/**
+ * * NaN
+ */
+ function exerciseFour() {
+    document.write(age*lastName+'<br>');
+}
+exerciseFour();
 
-/*NaN*/
-let numero1 = 4;
-let numero2 = 8;
-let dato = 'gamer';
-/*prompt*/
-let nombre = prompt('Hola eres gamer?');
-//alert('Hola '+ nombre);
+/**
+ * * PROMPT
+ */
 
-
-
-/*debug*/
-alert(numero1 * dato);
-//prompt()
-//alert(numero1 * numero2);
-
-marcaGamer ='razer';
-
-/*comentarios*/
-/*let y var si pueden cambiar de valor*/
-/*const siempre se inicializa y no se puede modificar*/
+ function exerciseFive() {
+    let play = prompt('Hola eres gamer?');
+    alert('Si yo Juego '+ play);
+}
+exerciseFive();
 
