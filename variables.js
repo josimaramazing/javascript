@@ -5,7 +5,7 @@
  * * scope : Se puede declarar e inicializar mas de una variable en un mismo dato.
  * * NaN : 
  * * let : Es un tipo de dato con mayor cobertura (Se recomienda su uso)
- * ? las variables de tipo const pueden cambiar de valor
+ * ? las variables de tipo const pueden cambiar de valor = las constante no cambian
  */
 var firstName = "Josimar";
 let lastName ="Leon";
@@ -23,7 +23,7 @@ number3 = 5;
  * * CONST
  */
 function exerciseOne() {
-    nickName = "jota";
+    //nickName = "gato";
     document.write(nickName+'<br>');
 }
 exerciseOne();
